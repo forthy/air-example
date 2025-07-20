@@ -18,6 +18,10 @@ test:
 	@echo "Testing..."
 	@go test ./... -v
 
+templ:
+	@echo "Generating templ files..."
+	@go tool templ generate -v
+
 # Clean the binary
 clean:
 	@echo "Cleaning..."

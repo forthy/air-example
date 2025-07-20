@@ -1,9 +1,9 @@
 module air-example
 
-go 1.24.2
+go 1.24.5
 
 require (
-	github.com/IBM/fp-go v1.0.152
+	github.com/IBM/fp-go v1.0.153
 	github.com/a-h/templ v0.3.857
 	github.com/go-playground/validator/v10 v10.26.0
 	github.com/go-sql-driver/mysql v1.9.2
